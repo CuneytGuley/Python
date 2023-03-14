@@ -35,7 +35,7 @@ def ogrenciNoBul(isim, soyisim):
     print(f"Örencinin Numarası : {ogrenciNo}" )
 
 ogrenciNoBul("Altan", "Ejder")
-print("**********************************")
+print("***********************************")
 
 
 
