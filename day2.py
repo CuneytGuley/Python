@@ -1,3 +1,6 @@
+from human import Human
+
+
 faiz = 1.59
 vade = "36"
 krediAdi = "İhtiyaç Kredisi"
@@ -159,3 +162,24 @@ fonk2 = calculatePriceAndReturn(300,100)
 print(f"159. satır : {fonk1}")
 print(f"160. satır : {fonk2+50}")
 print("*****************************")
+
+
+# sınıflar => classes
+# modules
+# paket yönetimi
+
+# Human sınıfı human.py dosyasına taşındı, bu sebeple import işlemi yapıldı ilk satırda
+
+# instance => örnek  -- nesnelere ulaşabilmek için önce bir instance oluşturmalıyız.
+human1 = Human("Enes")
+human1.talk("Merhaba")
+human1.walk()
+print(human1)
+
+human2 = Human("Halit")
+human2.talk("Selam")
+human2.walk()
+print(human2)
+
+Human("Melike").talk("Merhaba") # Bu şekilde de çalışır.
+
